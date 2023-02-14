@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="./assets/img/favicon/favicon.png">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <title>Meine Lieblingssprache</title>
+    <script type="text/javascript" src="./assets/js/JS script.js" defer></script>
 </head>
 <body>
     <header>
@@ -34,6 +35,27 @@
                     <li>Вам встретилось к примеру слово Schatz. Вам помогло знание суффиксов? - Окей, пошли учить слова с артиклем((</li>
                 </ol>
             <p>Но нам суффиксов не жалко, вот они:</p>
+
+            <script language="JavaScript">
+                let name = prompt('Как вас зовут?');
+
+                function showMassage()
+                {
+                    let message = 'Привет,' + name;
+                    alert(message);
+                }
+                showMassage();
+            </script>
+            <script>
+                let film = prompt('Ваш любимый фильм?');
+                switch (film)
+                {
+                    case 'matrix': 
+                    alert(`Ура, вы угадали!`); break;
+                    default:
+                    alert(`Попробуйте еще раз!`); break;
+                }
+            </script>
 
             <h2 id="maskulin">Мужской</h2>
             <p>Как правило существительные с этими суффиксами мужского рода</p>
